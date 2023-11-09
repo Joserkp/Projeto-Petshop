@@ -44,6 +44,23 @@ nav a:hover{
     color: #bdff9c;
 }
 
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #bdff9c;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
 /* Específicos ID */
 
 #ItemContato{
@@ -108,4 +125,41 @@ nav a:hover{
 
 #produto .flex-container{
     margin-top: 43px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; 
+    text-align: center;
+}
+
+
+footer a {
+    color: #bdff9c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer .container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+footer .flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .col {
+    width: 30%;
+}
+
+footer p {
+    margin-bottom: 10px;
 }
